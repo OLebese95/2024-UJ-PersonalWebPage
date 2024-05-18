@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-webpage</title>
+</head>
+
+<style>
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .container {
+    background-image: url('images/table-mountain.jpeg');
+    background-size: cover;
+    padding: 2.5em;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  .name {
+    margin-right: 20px;
+    font-size: 30px;
+    border: 5px;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  h3 {
+    text-align: center;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  h4 {
+    padding: 0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .Phrases {
+    padding: 0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .subjects-container {
+    display: flex
+  }
+
+
+  .subject {
+    padding: 0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .WhichCity {
+
+    padding-left: 4em;
+    padding-right: 4em;
+    display: flex;
+    align-items: center;
+    grid-gap: 0.5em;
+  }
+
+
+  .WhichCity img {
+    margin: 5px;
+  }
+
+
+  p {
+    text-align: justify;
+  }
+
+  .reason {
+    padding: 0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .ForeignLanguage {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  .plkcontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .place-content {
+    display: flex;
+    align-items: center;
+    grid-gap: 1em;
+  }
+
+
+
+  .places {
+    padding-left: 3em;
+  }
+
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    padding-left: 1em;
+    margin: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .items {
+    display: flex: block;
+    flex-wrap: wrap;
+    justify-content: content;
+    align-items: center;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: aliceblue;
+    }
+  }
+
+
+  @media screen and (max-width: 960px) {
+    body {
+      background-color: aqua;
+
+      .name {
+        display: block;
+      }
+
+      .WhichCity {
+        display: block;
+      }
+
+      .subjects-container {
+        display: block;
+      }
+
+      .plkcontainer {
+        display: block;
+      }
+
+      .place-text {
+        order: 1;
+      }
+
+      h4,
+      h5 {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+
+      .WhichCity {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+
+      h3 {
+        text-align: left;
+        padding: 0.5em;
+      }
+
+      .reason {
+        padding: 0.5em;
+      }
+
+      .Phrases {
+        padding: 0.5em;
+      }
+
+      .ForeignLanguage {
+        padding: 0.5em;
+      }
+
+      .subject {
+        padding: 0.5em;
+        padding-left: 0.5em;
+      }
+
+      .places {
+        padding-left: 0.5em;
+      }
+
+      .footer {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+</style>
+</head>
+<body>
+  <section class="container">
+    <div class="name">
+      <h2>Ofentse Lebese</h2>
+      <img src="images/Profile.jpeg" alt="Profile Picture" width="200" style="border-radius: 50%;">
+    </div>
+  </section>
+
+  <section>
+    <h3>A city I would like to visit</h3>
+  </section>
+  <section>
+    <h4>Paris (City of Light)</h4>
+    <div class="WhichCity">
+      <img src="images/paris.jpeg" alt="France Paris" width="330">
+      <p>
+        Paris is a city I'd love to visit because whenever I see it on TV, it looks absolutely incredible. The buildings
+        there are so beautiful, especially that tower thing, the Eiffel Tower, I think it's called. And they have these
+        amazing old churches and museums with famous paintings and stuff. The food looks amazing too, like they have
+        these fancy pastries and delicious meals. But what really makes me want to go is the feeling you get from
+        watching movies. It seems so romantic and exciting, like there's always something happening. Even though I've
+        only seen it on TV, I feel like Paris is a place full of wonder and adventure, and I'd love to experience it for
+        myself one day.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h3>Foreign language I would like to learn</h3>
+  </section>
+  <section>
+    <h4>Spanish</h4>
+    <p class="reason">
+      I'd like to learn Spanish because it sounds so beautiful and classy. Plus, I think it would be really cool to be
+      able to speak with people from different countries and understand Spanish movies and songs. Learning Spanish could
+      open up new opportunities for me to travel and connect with others around the world.
+    </p>
+    <div class="Phrases">
+      <h5>Phrases in Spanish</h5>
+    </div>
+    <div class="ForeignLanguage">
+
+      <table>
+        <tr>
+          <th>English</th>
+          <th>Spanish</th>
+        </tr>
+        <tr>
+          <td>Hello</td>
+          <td>Hola</td>
+        </tr>
+        <tr>
+          <td>Thank you</td>
+          <td>Gracias</td>
+        </tr>
+        <tr>
+          <td>Goodbye</td>
+          <td>Adiós</td>
+        </tr>
+        <tr>
+          <td>How are you?</td>
+          <td>¿Cómo estás?</td>
+        </tr>
+        <tr>
+          <td>Yes</td>
+          <td>Sí</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <section>
+    <h3>Three favourite subjects: Accenture 4IR WRP</h3>
+  </section>
+  <section>
+    <h4>Favourite subjects</h4>
+    <div class="subjects-container">
+      <div class="subject">
+        <h5>Agile Rapid Skills</h5>
+        <img src="images/agile.png" width="250">
+      </div>
+
+      <div class="subject">
+        <h5>Full Stack Web Development</h5>
+        <img src="images/full-stack.png" width="250">
+      </div>
+
+      <div class="subject">
+        <h5>4IR Technologies</h5>
+        <img src="images/technology.png" width="250">
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div>
+      <h3>Historic places in Pretoria</h3>
+
+      <h4>Historic Places</h4>
+  </section>
+
+  <section class="plkcontainer">
+    <div class="place-container">
+      <div class="places">
+        <h5>Voortrekker Monument</h5>
+      </div>
+      <div class="place-content">
+        <div>
+          <ul>
+            <li>Inaugurated in 1949</li>
+            <li>One of the longest historical artworks</li>
+            <li>Stands 40 meters tall</li>
+          </ul>
+        </div>
+        <div>
+          <img src="images/Voortrekker.jpeg" alt="Voortrekker Monument" width="175" />
+        </div>
+      </div>
+    </div>
+    <div class="place-container">
+      <div class="places">
+        <h5>Union Buildings</h5>
+      </div>
+      <div class="place-content">
+        <div class="place-text">
+          <ul>
+            <li>Completed in 1913.</li>
+            <li>Holds official seat of SA government.</li>
+            <li>A national heritage site</li>
+          </ul>
+        </div>
+        <div>
+          <img src="images/union_buildings.jpeg" alt="Union Buildings" width="200" />
+        </div>
+      </div>
+    </div>
+    <div class="place-container">
+      <div class="places">
+        <h5>Freedom Park</h5>
+      </div>
+      <div class="place-content">
+        <div>
+          <ul>
+            <li>Established in 2000.</li>
+            <li>Includes SA's freedom museum.</li>
+            <li>The park offers a panoramic view of Pretoria.</li>
+          </ul>
+        </div>
+        <div place-image>
+          <img src="images/freedom_park.jpeg" alt="Freedom Park" width="200" />
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="footer">
+      <div class="left">
+        <h4>Contact Details:</h4>
+        <div>
+          <div class="items">
+            <img src="images/telephone-call.png" width="25" />
+            <p>0716972363</p>
+          </div>
+
+          <div class="items">
+            <img src="images/facebook.png" width="25" />
+            <img src="images/instagram.png" width="25" />
+            <img src="images/twitter.png" width="25" />
+            <p>fentselebese</p>
+          </div>
+        </div>
+      </div>
+  </section>
+</body>
+
+</html>
+</body>
+
+</html>
